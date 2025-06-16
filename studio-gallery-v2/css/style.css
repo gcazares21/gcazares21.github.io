@@ -1,0 +1,59 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.display {
+   margin: 50px 12px 0px;
+   border: 5px outset rgb(107, 92, 7);
+   width: 150px;
+   height: auto;
+   display: inline-block;
+}
+.display div {
+    background-color: whitesmoke;
+    padding: 18px;
+    box-shadow: inset -2px -2px #1115;
+}
+.display img { 
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.display2 {
+   margin: 50px 12px 0px;
+   border: 5px outset rgb(107, 92, 7);
+   width: 150px;
+   height: auto;
+   display: inline-block;
+}
+.display2 div {
+    background-color: whitesmoke;
+    padding: 18px;
+    box-shadow: inset -2px -2px #1115;
+}
+.display2 img { 
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.display3 {
+   margin: 50px 12px 0px;
+   border: 5px outset rgb(107, 92, 7);
+   width: 150px;
+   height: auto;
+   display: inline-block;
+}
+.display3 div {
+    background-color: whitesmoke;
+    padding: 18px;
+    box-shadow: inset -2px -2px #1115;
+}
+.display3 img { 
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
