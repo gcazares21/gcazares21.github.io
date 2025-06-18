@@ -1,5 +1,12 @@
 /* Drill 1 - Write your code solution below */
-
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+.column-d1 {
+    width: 300px;
+}
 
 /* Drill 2 - Write your code solution below */
 
