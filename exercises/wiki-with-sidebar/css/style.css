@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+    max-width: 900px;
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 25px;
+}
+#sidebar {
+    background-color: rgb(30, 182, 182);
+    width: 250px;
+    padding: 25px;
+}
+#main {
+    background-color: rgb(224, 135, 186);
+    padding: 48px;
+}
+p {
+    color: white;
+}
+ul {
+    color: white;
+}
+ul a {
+    color: white
+}
+h2 { 
+    color: white;
+}
+h3 {
+    color: white;
+}
