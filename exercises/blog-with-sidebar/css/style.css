@@ -59,3 +59,12 @@ body {
 h1 {
     color: rgb(211, 144, 37);
 }
+h4 {
+    margin: 0px;
+    text-align: left;
+}
+h5 {
+    margin: 5px;
+    display: inline-block;
+    text-align: right;
+}
