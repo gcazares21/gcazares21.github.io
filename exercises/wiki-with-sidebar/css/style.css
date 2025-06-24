@@ -18,9 +18,15 @@ body {
     padding: 25px;
 }
 #main {
-    background-color: rgb(224, 135, 186);
+    background-color: rgb(223, 151, 192);
     padding: 48px;
 }
+.sidebyside {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+}
+
 p {
     color: white;
 }
@@ -33,7 +39,15 @@ ul a {
 h2 { 
     color: white;
 }
-h3 {
+h4 {
     color: white;
+}
+#culture {
+    object-fit: cover;
+    flex: 1;
+
+}
+#sidebyside p {
+    flex: 1;
 }
 
