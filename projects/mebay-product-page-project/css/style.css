@@ -3,8 +3,8 @@
 }
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(247, 238, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 232, 233);
 }
 
 #page-layout {
@@ -21,7 +21,7 @@ body {
     margin: 5px 5px;
     padding: 10px 25px;
     border-radius: 25px;
-    color: black;
+    color: rgb(20, 1, 24);
     font-weight: bold;
     font-size: 1rem;
 }
@@ -29,11 +29,11 @@ img {
     width: 100%;
     object-fit: cover;
     padding: 5px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 #seller a {
     text-decoration: none;
-    color: rgb(119, 24, 167);
+    color: rgb(121, 6, 79);
 }
 #seller .base-info, 
 #seller .links {
@@ -66,15 +66,20 @@ img {
     flex-direction: column;
     margin: 5px 2px 5px;
     padding: 25px;
+    align-items: center;
 }
+
 h1 {
-    border-style: double;
     color: fuchsia;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                'Lucida Sans', Arial, sans-serif;
 }
 h2 {
-    text-align: center;
+
     color: black;
+    font-family: sans-serif;
 }
 h6 {
     margin: 5px 5px;
@@ -88,4 +93,14 @@ h6 {
 }
 #skates4 {
     width: 150px;
+}
+#one {
+    display: flex;
+    border: 2px solid gray;
+    margin: 10px 10px;
+    padding: 5px 5px 5px;
+    justify-content: center;
+}
+.box {
+    display: flex;
 }
