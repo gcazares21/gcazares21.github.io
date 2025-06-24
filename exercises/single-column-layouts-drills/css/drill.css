@@ -1,14 +1,18 @@
 /* Drill 1 - Write your code solution below */
 #column-d1 {
     width: 300px;
-
 }
 
 /* Drill 2 - Write your code solution below */
-
+#column-d2 {
+    width: 300px;
+    align-items: center;
+}
 
 /* Drill 3 - Write your code solution below */
-
+#column-d3 {
+    width: 50%;
+}
 
 /* Drill 4 - Write your code solution below */
 
