@@ -28,9 +28,12 @@ body {
 img {
     width: 100%;
     object-fit: cover;
+    padding: 5px;
+    border: 1px solid white;
 }
 #seller a {
     text-decoration: none;
+    color: rgb(119, 24, 167);
 }
 #seller .base-info, 
 #seller .links {
