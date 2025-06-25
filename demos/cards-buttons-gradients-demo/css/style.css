@@ -52,3 +52,6 @@ img {
         }
     }
 }
+.card img {
+    height: 150px;
+}
