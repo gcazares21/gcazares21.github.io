@@ -24,7 +24,7 @@ body {
 #hero-1 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: rgb(204, 106, 25);
+    color: gold;
     align-items: center;
     left: 20%;
 }
@@ -67,7 +67,7 @@ body {
 #hero-2 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: rgb(204, 106, 25);
+    color: rgba(249, 141, 53, 0.929);
     align-items: center;
     left: 20%;
 }
@@ -89,6 +89,49 @@ body {
     margin: 24px 12px 0px;
 }
 #hero-2 .container {
+    width: max-content;
+    margin: 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/beachyy.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 100dvh;
+    padding: 24px 0px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+#hero-3 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(204, 106, 25);
+    align-items: center;
+    left: 20%;
+}
+#hero-3 p {
+    font-family: cursive;
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    left: 20%;
+}
+#hero-3 a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: teal;
+    display: inline-block;
+    padding: 12px;
+    margin: 24px 12px 0px;
+}
+#hero-3 .container {
     width: max-content;
     margin: 0px;
 }
