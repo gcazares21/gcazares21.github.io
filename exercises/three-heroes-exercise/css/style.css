@@ -110,7 +110,7 @@ body {
 #hero-3 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: rgb(204, 106, 25);
+    color: rgb(34, 147, 191);
     align-items: center;
     left: 20%;
 }
@@ -136,8 +136,8 @@ body {
     margin: 0px;
 }
 .parallax {
-        height: 50vh;
-    margin: 100px 0px;
+    width: 100vw;
+    margin: 50px 0px;
     background-image: url("../images/orange.jpg");
     background-size: cover;
     background-attachment: fixed;
