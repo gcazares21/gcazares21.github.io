@@ -22,7 +22,7 @@ body {
 
 }
 #hero-1 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: gold;
     align-items: center;
@@ -65,7 +65,7 @@ body {
 
 }
 #hero-2 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     color: rgba(249, 141, 53, 0.929);
     align-items: center;
@@ -108,7 +108,7 @@ body {
 
 }
 #hero-3 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     color: rgb(34, 147, 191);
     align-items: center;
