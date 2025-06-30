@@ -42,3 +42,11 @@ body {
     height: 250px;
     flex: 1;
 }
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
