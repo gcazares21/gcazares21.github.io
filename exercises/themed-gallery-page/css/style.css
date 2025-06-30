@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(152, 206, 220);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    color: white;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 20px solid #edeeaa;
+    padding: 24px;
+    gap: 24px;
+    background-color: white;
+}
+#hero-1 {
+    background-image: url("../images/travelsign.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-1 h1 {
+    font-size: 100px;
+    color: gold;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+#hero-2 {
+    width: 180px;
+}
+#hero-2 a{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+h2{
+    width: 180px;
+}
