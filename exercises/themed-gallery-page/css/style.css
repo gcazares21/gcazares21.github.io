@@ -21,11 +21,12 @@ img {
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 20px solid gold;
+    border: 15px solid gold;
     padding: 24px;
     gap: 24px;
     background-color: white;
 }
+
 #hero-1 {
     background-image: url("../images/travelsign.jpg");
     background-size: cover;
@@ -51,12 +52,13 @@ img {
     background-color: gold;
     color: rgb(0, 0, 0);
     border-radius: 15px;
+
     text-decoration: none;
-    padding: 24px;
+    padding: 25px;
     position: absolute;
-    right: 20%;
-    bottom: 41%;
+    left: 0%;
+    top: 58%;
 }
-h2{
+h2 {
     width: 180px;
 }
