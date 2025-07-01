@@ -21,7 +21,7 @@ img {
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 20px solid #edeeaa;
+    border: 20px solid gold;
     padding: 24px;
     gap: 24px;
     background-color: white;
