@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+/* Navbar */
+#navbar1 {
+    background: linear-gradient(to top, rgba(59, 96, 48, 0.751), #9cbb9c);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar1 #top .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navbar1 a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 24px;
+    font-weight: bold;
+}
+
+
+#navbar2 {
+    background-color: rgb(234, 223, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar2 #top .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: rgb(3, 1, 24);
+    padding: 24px;
+    font-weight: bold;
+}
+
+#navbar2 .btn {
+    background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(6, 105, 21);
+    padding: 20px;
+    font-weight: bold;
+}
+
+#navbar3 {
+    background-color: orange;
+    font-family: "Playfair Display SC", serif;
+    font-size: 14px;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar3 #top .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navbar3 a {
+    text-decoration: none;
+    color: rgb(3, 1, 24);
+    padding: 30px;
+    font-weight: bold;
+}
+
+#navbar3 .btn {
+    background-color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: orange;
+    padding: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: rgb(3, 2, 2);
+    font-size: 24px;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+}
