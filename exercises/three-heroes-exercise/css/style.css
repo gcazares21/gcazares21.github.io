@@ -3,8 +3,14 @@
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
     background-color: beige;
+}
+
+h1 {
+    color: whitesmoke;
+    font-weight: bolder;
 }
 
 #hero-1 {
@@ -41,6 +47,7 @@ body {
     text-decoration: none;
     background-color: white;
     color: teal;
+    border-radius: 5px;
     display: inline-block;
     padding: 12px;
     margin: 24px 12px 0px;
@@ -67,7 +74,7 @@ body {
 #hero-2 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: rgba(249, 141, 53, 0.929);
+    color: rgba(241, 240, 188, 0.929);
     align-items: center;
     left: 20%;
 }
@@ -87,6 +94,7 @@ body {
     display: inline-block;
     padding: 12px;
     margin: 24px 12px 0px;
+    border-radius: 5px;
 }
 #hero-2 .container {
     width: max-content;
@@ -109,15 +117,15 @@ body {
 }
 #hero-3 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: rgb(34, 147, 191);
+    font-size: 60px;
+    color: rgb(5, 38, 69);
     align-items: center;
     right: 20%;
 }
 #hero-3 p {
     font-family: cursive;
     font-size: 24px;
-    color: white;
+    color: rgb(5, 38, 69);
     text-align: right;
     right: 20%;
 }
@@ -130,15 +138,9 @@ body {
     display: inline-block;
     padding: 12px;
     margin: 24px 12px 0px;
+    border-radius: 5px;
 }
 #hero-3 .container {
     width: max-content;
     margin: 0px;
-}
-.parallax {
-    width: 100vw;
-    margin: 50px 0px;
-    background-image: url("../images/orange.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
