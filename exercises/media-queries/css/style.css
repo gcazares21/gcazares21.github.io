@@ -218,14 +218,12 @@ a {
     #hero h1 {
         font-size: 60px;
     }
-
     #hero h3 {
         font-size: 36px;
     }
-    
     .two-cards,
     .three-cards {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
 
