@@ -1,16 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Limelight&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #7c908a;
     background-image: url(../images/petpattern.jpg);
     background-size: 50%;
     background-position: center center; 
 }
+
+
 img {
     width: 100%;
     object-fit: cover;
 }
+.container {
+    width: 90vw;
+    max-width: 0px auto;
+    margin: 0px auto;
+}
 
+/* Navbar */
+#navbar {
+    background-color: #bdb3a6;
+    position: sticky;
+    top: 0px;
+}
+#navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navbar img {
+    width: 10%;
+}
+#navbar a {
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;   
+}
+#navbar #title {
+    font-family:  "Chicle", serif;;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero {
+    background-image: url("../images/furryfriend.jpg");
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#background {
+    background-color: white;
+}
