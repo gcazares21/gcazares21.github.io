@@ -4,8 +4,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #7c908a;
+    background-image: url(../images/petpattern.jpg);
+    background-size: 50%;
+    background-position: center center; 
 }
 img {
     width: 100%;
     object-fit: cover;
 }
+
