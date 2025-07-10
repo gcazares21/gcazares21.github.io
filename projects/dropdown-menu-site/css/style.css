@@ -68,12 +68,12 @@ img {
     background-color: #fff8da;
 }
 #paw {
-    width: 100px;
+    width: 50%;
     border-radius: 15px;
-    display: inline-block;
+    display: flex;
 }
 #text {
-    font-family:  "Chicle", serif;
+    font-family:  curs;
     color: rgb(90, 48, 4);
     font-style: italic;
     font-size: 22px;
