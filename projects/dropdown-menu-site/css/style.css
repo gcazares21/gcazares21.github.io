@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/petpattern.jpg);
+    background-color: #fff8da;
     background-size: 50%;
     background-position: center center; 
 }
@@ -24,7 +24,7 @@ img {
 
 /* Navbar */
 #navbar {
-    background-color: #bdb3a6;
+    background-color:#ff9576;
     position: sticky;
     top: 0px;
 }
@@ -34,33 +34,47 @@ img {
     justify-content: space-evenly;
 }
 #navbar img {
-    width: 10%;
+    width: 15%;
+    border-radius: 15px;
 }
+
 #navbar a {
     justify-content: center;
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 15px;   
+    font-size: 18px;   
 }
 #navbar #title {
-    font-family:  "Chicle", serif;;
+    font-family:  "Chicle", serif;
     font-size: 20px;
+    color: #fbfeff;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
 }
 
 .hero {
-    background-image: url("../images/furryfriend.jpg");
+    background-image: url("../images/furryfriends.jpg");
     background-repeat: no-repeat;
-    height: 75vh;
-    background-size: contain;
+    height: 50vh;
+    background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #background {
-    background-color: white;
+    background-color: #fff8da;
+}
+#paw {
+    width: 100px;
+    border-radius: 15px;
+    display: inline-block;
+}
+#text {
+    font-family:  "Chicle", serif;
+    color: rgb(90, 48, 4);
+    font-style: italic;
+    font-size: 22px;
 }
