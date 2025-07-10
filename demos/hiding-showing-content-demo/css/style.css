@@ -40,6 +40,7 @@ img {
 #card1 {
     transition: background-color 0.5s, box-shadow 0.5, transform 0.5s
 }
+
 #card2 a{
     transition: background-color 0.5s, box-shadow 0.5, transform 0.5s
 }
@@ -48,6 +49,7 @@ img {
     box-shadow: 4px 4px 4px #000300;
     transform: translateY(-8px);
 }
+
 #card3 .card-content {
     transition: opacity 0.5s;
 }
