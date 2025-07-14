@@ -126,20 +126,20 @@ h4 {
 }
 
 .side-by-side .text-container h2 {
-    font-size: 25px;
+    font-size: zpx;
     font-family: "Playfair Display", serif;
     color: white;
     padding: 24px;
 }
 .side-by-side .text-container a {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
     background-color: white;
     color: black;
-    padding: 24px 48px;
-    border-radius: 48px;
+    padding: 20px 48px;
+    border-radius: 45px;
 }
 
 /* Footer */
