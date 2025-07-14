@@ -17,7 +17,7 @@ img {
 }
 
 #navbar a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
     padding: 24px;
