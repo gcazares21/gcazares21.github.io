@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Limelight&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
-
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5C4033;
     background-size: 100%;
     background-position: center center;
 }
@@ -15,8 +14,8 @@ img {
     width: 100%;
     object-fit: cover;
 }
-.container {
-    width: 50%;
+#layout {
+    width: 80%;
     min-width: 500px;
     max-width: 0px auto;
     margin: 0px auto;
@@ -24,34 +23,65 @@ img {
 
 /* Navbar */
 #navbar {
-    background-color: #80D8C3;
+    background: linear-gradient(to bottom, coral, peachpuff);
+    display: flex;
+    justify-content: space-evenly;
     position: sticky;
     top: 0px;
-}
-#navbar .container {
-    display: flex;
+    font-size: 25px;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20px;
 }
+
 #navbar img {
     width: 15%;
     border-radius: 15px;
 }
-
 #navbar a {
     justify-content: center;
-    color: white;
+    color: #5C4033;
     font-weight: bold;
     text-decoration: none;
-    font-size: 18px;   
+    font-size: 18px;
+    padding: 50px 0px;
+    display: inline-block;
 }
-#navbar #title {
-    font-family:  "Chicle", serif;
-    font-size: 20px;
-    color: #fbfeff;
+
+#navbar h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    align-items: flex-start;
+}
+#navbar .drop {
+    font-size: 25px;
+
+}
+.drop {
+    position: relative;
+}
+.drop:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+.menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+#navbar .menu a {
+    display: inline-block;
+    background-color: #fdb17e;
+    padding: 24px;
+    width: 100%;
+    min-width: 300px;
+}
+#navbar .menu a:hover {
+    background-color: #C19A6B;
+    color: white;
+}
+#navbar #logo {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    padding: 0px;
 }
 
 .hero {
@@ -65,17 +95,11 @@ img {
     align-items: center;
 }
 
-#paw {
-    width: 50%;
-    border-radius: 15px;
-    display: flex;
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#text {
-    font-family:  curs;
-    color: teal;
-    font-style: italic;
-    font-size: 22px;
-}
+
+
 .side-by-side {
     display: flex;
     align-items: center;
@@ -92,19 +116,21 @@ img {
 
 .side-by-side .image-container img {
     width: 100%;
+    border-radius: 45px;
 }
 
 .side-by-side .text-container h3 {
-    font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     color: teal;
+    padding: 24px;
 }
 .side-by-side .text-container a {
     font-size: 28px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: teal;
+    background-color: coral;
     color: white;
     padding: 24px 48px;
     border-radius: 48px;
