@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     font-family: "Playfair Display", serif;
-    background-color: #C1B49A;
+    background-color: #F9F6EE;
     color: black;
     background-size: 100%;
     background-position: center center;
@@ -18,14 +18,14 @@ img {
     object-fit: cover;
 }
 #layout {
-    width: 80%;
+    min-width:600px;
     max-width: 1400px;
     margin: 0px auto;
 }
 
 /* Navbar */
 #navbar {
-    background-color: #525C51;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     position: sticky;
@@ -101,7 +101,7 @@ img {
 
 h4 {
     font-family: "Playfair Display", serif;
-    color: white;
+    color:black;
 }
 
 /* Side by Side */
@@ -142,6 +142,29 @@ h4 {
     border-radius: 45px;
 }
 
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: inline-block;
+    flex: 1;
+    border: 3px solid black;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 24px 0px 0px;
+}
 /* Footer */
 #footer {
     background-color: black;

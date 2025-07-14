@@ -3,12 +3,12 @@
 }
 body {
     margin: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+        'Lucida Sans', Arial, sans-serif;
     color: #5C4033;
     background-size: 100%;
     background-position: center center;
 }
-
 
 img {
     width: 100%;
@@ -98,7 +98,6 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
 .side-by-side {
     display: flex;
     align-items: center;
@@ -180,7 +179,6 @@ h1 {
         width:80%;
         align-items: center;
     }
-
     .side-by-side .text-container h3 {
         align-items: center;
         font-size: 20px;
