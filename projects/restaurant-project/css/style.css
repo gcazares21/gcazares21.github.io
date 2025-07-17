@@ -15,13 +15,13 @@ img {
     object-fit: cover;
 }
 #layout {
-    min-width:600px;
+    min-width:480px;
     max-width: 1400px;
     margin: 0px auto;
 }
 
 #layout2 {
-    min-width:600px;
+    min-width:480px;
     max-width: 1400px;
     margin: 0px auto;
 }
@@ -36,8 +36,8 @@ img {
     font-size: 25px;
     align-items: center;
     gap: 20px;
+    padding: 0px 60px;
 }
-
 #navbar img {
     width: 40%;
     border-radius: 15px;
@@ -58,12 +58,10 @@ img {
     font-weight: bold;
     align-items: flex-start;
 }
-#navbar .drop {
-    font-size: 25px;
 
-}
 .drop {
     position: relative;
+    font-size: 55px;
 }
 .drop:hover .menu {
     opacity: 1;
@@ -114,17 +112,22 @@ img {
     align-items: center;
     opacity: 0.9;
 }
-
+h1 {
+    font-size: 80px;
+    font-style: italic;
+    color: #F9F6EE;
+    letter-spacing: 1px;
+}
 h4 {
     font-family: "Playfair Display", serif;
     font-style: italic;
     font-size: 50px;
     color:white;
     opacity: 0.8;
+    letter-spacing: 1px;
 }
 
 #layout .hero a {
-
     background-color:#525C51;
     color: white;
     font-size: 18px;
@@ -137,11 +140,14 @@ h4 {
     border-radius: 15px;
     opacity: 0.9;
 }
+
 /* Side by Side */
 .side-by-side {
     display: flex;
     align-items: center;
     margin: 40px 20px;
+    padding: 15px 0px;
+     
 }
 .side-by-side .image-container {
     flex: 1;
@@ -171,32 +177,26 @@ h4 {
     background-color: black;
     color: white;
     padding: 20px 48px;
+    margin: 20px;
 }
 
 /* Cards */
-
 .card-container {
     display: flex;
     justify-content: center;
     gap: 35px;
-    padding: 15px 0px;
+    text-align: center;
+    margin: 30px;
 }
 #card-section2 .card-container {
     flex-direction: column;
+
 }
 #card-section2 .card {
     display: inline-block;
     text-align: center;
-    color: white;
-}
-.card-section2 .card {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-}
-#card-section2 {
-    background-color: black;
+    background-color: #F9F6EE;
+    color: 191919;
 }
 
 #card-section .card {
@@ -239,13 +239,15 @@ h4 {
 #footer a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 #footer-navbar {
-    width: 1400px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0px 60px; 
 }
 
 /* Media Queries */
@@ -256,54 +258,90 @@ h4 {
     #navbar {
         flex-direction: column;
     }
-    #navbar img {
-        object-fit: contain;
-    }
     #navbar a {
-        padding: 30px 0px;
-    }
-
-    #navbar h2 {
-        align-items: center;
+        padding: 6px 0px;
     }
     #navbar .drop {
-        font-size: 25px;
+        font-size: 16px;
 
     }
     #navbar .menu a {
         min-width: 0px;
     }
-
+    #navbar #logo img {
+        margin: 0px auto;
+        height: 70px;
+    }
     .hero {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
-        background-size: contain;
+        width: 100%;
+        background-size: cover;
+    }
+    h4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        font-size: 44px;
     }
     .side-by-side {
         flex-direction: column;
         align-items: center;
-        margin: 20px 0px;
-
+        text-align: center;
     }
     .side-by-side .text-container {
+        flex-direction: column;
         padding: 4px;
         align-items: center;
     }
 
     .side-by-side .image-container img {
-        width:80%;
+        flex-direction: column;
+        width:100%;
         align-items: center;
     }
 
     .side-by-side .text-container h3 {
-        align-items: center;
-        font-size: 20px;
-        padding: 15px;
+        font-size: 16px;
     }
     .side-by-side .text-container a {
+        flex-direction: column;
         align-items: center;
-        padding: 12px 24px;
-        border-radius: 24px;
+    }
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+    #card-section .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #card-section2 .card-container {
+        flex-direction: column;
+
+    }
+    #card-section2 .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .card h3 {
+        font-size: 18px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+    /* Footer */
+    #footer {
+        flex-direction: column;
+    }
+    #footer-navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
