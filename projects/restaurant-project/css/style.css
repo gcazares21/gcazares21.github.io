@@ -255,6 +255,9 @@ h4 {
     #layout {
         min-width: 0px;
     }
+    #layout2 {
+        min-width:0px;    
+    }
     #navbar {
         flex-direction: column;
     }
