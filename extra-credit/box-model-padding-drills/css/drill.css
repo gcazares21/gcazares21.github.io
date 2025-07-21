@@ -9,13 +9,28 @@
 }
 
 /* Drill 3 - Write your code solution below */
-.d3-container {
-    padding: 24px 48px;
+#d3-div-1 {
+    padding: 12px;
+}
+#d3-div-2 {
+    padding: 0px 48px;
+}
+#d3-div-3 {
+    padding: 12px;
 }
 
-
 /* Drill 4 - Write your code solution below */
-
+.d4-container-1 {
+    margin-bottom: auto 0px;
+}
+#d4-div-1, #d4-div-2  {
+    padding: 24px;
+}
 
 /* Drill 5 - Write your code solution below */
-
+#d5-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px 12px;
+    padding: 20px;
+}
