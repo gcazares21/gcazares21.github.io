@@ -20,10 +20,10 @@
 }
 
 /* Drill 4 - Write your code solution below */
-.d4-container-1 {
-    margin-bottom: auto 0px;
+.d4-container-1 p { 
+    margin: 0px;
 }
-#d4-div-1, #d4-div-2  {
+#d4-div-1, #d4-div-2 {
     padding: 24px;
 }
 
