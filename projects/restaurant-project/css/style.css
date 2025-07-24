@@ -323,6 +323,7 @@ h4 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 25px;
     }
     #card-section .card {
         flex-direction: column;
